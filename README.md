@@ -1,6 +1,7 @@
 # Graphlib
 
 Graphlib is a simple Graph library. Available types of graph - directed and undirected.
+Uses Java 8.
 
 ## Installation
 
@@ -10,9 +11,17 @@ Use maven to install into your local m2 repository.
 mvn clean install
 ```
 
+## Run test
+
+Use maven to run tests.
+
+```bash
+mvn clean test
+```
+
 ## Usage
 
-Add as a dependency to your project:
+Add as a dependency to your project.
 
 ```xml
 <dependency>
@@ -22,7 +31,7 @@ Add as a dependency to your project:
 </dependency>
 ```
 
-Now you can create a graph:
+Now you can create a graph.
 
 ```java
 import com.ipatina.graphlib.DirectedGraph;
